@@ -1,0 +1,1 @@
+deepspeed --include="localhost:2,3,4,5" --master_port 9901 ./sft.py --deepspeed --deepspeed_config ./ds_z3_config.json 
